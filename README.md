@@ -76,4 +76,6 @@ The solution leverages commonly used technologies and integrates seamlessly into
 ---
 
 ## License
+
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
