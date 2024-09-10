@@ -1,0 +1,39 @@
+Smart-EduConnect/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+│
+├── src/
+│   ├── backend/
+│   │   ├── ai_ml/
+│   │   │   ├── models/          # AI/ML models (Python/TensorFlow/PyTorch)
+│   │   │   ├── data/            # Data files (CSV, JSON, etc.)
+│   │   │   └── scripts/         # Training and evaluation scripts
+│   │   └── api/                 # Backend API code (Python/Flask/Django)
+│   │       └── routes/          # API routes for handling requests
+│   │
+│   ├── frontend/
+│   │   ├── react_native/        # React Native code for mobile app
+│   │   └── web_portal/          # React or another framework for web portal
+│   │
+│   ├── flexible_schooling/       # Code for Flexible Schooling Management System
+│   │   └── scheduling/          # Code to manage scheduling and enrolment
+│   │
+│   ├── parental_portal/          # Parental Engagement Portal code
+│   │   └── communication/       # Parent-teacher communication system
+│   │
+│   └── student_support/          # Student Support and Engagement app code
+│       └── counselling/         # Counselling and goal-setting tools
+│
+├── docs/                         # Documentation, reports, research papers
+│   └── project_plan.md           # Detailed project plan
+│
+├── assets/                       # Images, designs, and multimedia
+│   ├── parental_engagement.png
+│   ├── flexible_schooling.png
+│   └── student_support.png
+│
+└── tests/
+    ├── unit_tests/               # Unit tests for backend and frontend
+    └── integration_tests/        # Integration tests
