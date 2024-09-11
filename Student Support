@@ -1,0 +1,12 @@
+// goalSetting.js
+let goals = [];
+
+function setGoal(studentName, goalDescription, deadline) {
+  goals.push({ student: studentName, goal: goalDescription, deadline });
+}
+
+function viewGoals() {
+  return goals;
+}
+
+module.exports = { setGoal, viewGoals };
