@@ -1,0 +1,12 @@
+// notification.js
+let notifications = [];
+
+function sendNotification(to, notificationMessage) {
+  notifications.push({ to, message: notificationMessage });
+}
+
+function viewNotifications() {
+  return notifications;
+}
+
+module.exports = { sendNotification, viewNotifications };
