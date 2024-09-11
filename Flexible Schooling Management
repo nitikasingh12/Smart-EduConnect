@@ -1,0 +1,15 @@
+// scheduleManager.js
+const schedule = [
+  { student: 'John Doe', class: 'Math', time: '9:00 AM' },
+  { student: 'Jane Doe', class: 'Science', time: '10:00 AM' },
+];
+
+function addSchedule(student, className, time) {
+  schedule.push({ student, class: className, time });
+}
+
+function viewSchedule() {
+  return schedule;
+}
+
+module.exports = { addSchedule, viewSchedule };
