@@ -1,0 +1,12 @@
+// enrollmentManager.js
+let enrolledStudents = [];
+
+function enrollStudent(studentName, className) {
+  enrolledStudents.push({ student: studentName, class: className });
+}
+
+function viewEnrolledStudents() {
+  return enrolledStudents;
+}
+
+module.exports = { enrollStudent, viewEnrolledStudents };
