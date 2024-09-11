@@ -1,0 +1,12 @@
+// messageBoard.js
+let messages = [];
+
+function sendMessage(from, to, message) {
+  messages.push({ from, to, message });
+}
+
+function viewMessages() {
+  return messages;
+}
+
+module.exports = { sendMessage, viewMessages };
